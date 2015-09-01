@@ -4,7 +4,9 @@ body {
   background-size: tile;
   color: #52454B;
   font-family: "Open Sans", Helvetica, sans serif;
-  line-height: 1.25em
+  line-height: 2em
+  margin: 2em;
+
 }
 hr {
   width: 300px;
