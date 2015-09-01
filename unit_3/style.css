@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background: url("http://images4-b.ravelrycache.com/uploads/nightowlknitting/322752065/knit_pattern_lt_medium2.png");
+  background-size: tile;
+  color: #52454B;
+  font-family: "Open Sans", Helvetica, sans serif;
+  line-height: 1.25
+}
+hr {
+  width: 300px;
+}
+h1 {
+	font-size: 24px
+}
+h3 {
+	font-size: 16px
+}
+ul {
+	list-style-type: none;
+}
+#slogan {
+	font-style: italic;
+}
+#bottom_links {
+	text-transform: uppercase;
+}
