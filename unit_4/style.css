@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Slabo|Open+Sans|Amatic+SC|Dancing+Script);
 
 body {
   text-align: center;
-  background: url("http://images4-b.ravelrycache.com/uploads/nightowlknitting/322752065/knit_pattern_lt_medium2.png");
-  background-size: tile;
-  color: #52454B;
-  font-family: "Open Sans", Helvetica, sans serif;
+  background-image: url("images/knit_pattern_lt.png");
+  color: #4D4D4D;
+  font-family: 'Merriweather', serif;
   line-height: 2em
   margin: 2em;
 
@@ -23,8 +22,8 @@ ul {
 	list-style-type: none;
 }
 #slogan {
-	font-style: italic;
+	font-family: 'Amatic SC';
 }
 #bottom_links {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Amatic SC', sans serif;
 }
