@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Dancing+Script);
+
 body {
   text-align: center;
   background: url("http://images4-b.ravelrycache.com/uploads/nightowlknitting/322752065/knit_pattern_lt_medium2.png");
@@ -12,10 +14,10 @@ hr {
   width: 300px;
 }
 h1 {
-	font-size: 24px
+	font-size: 2em;
 }
 h3 {
-	font-size: 16px
+	font-size: 1.5em;
 }
 ul {
 	list-style-type: none;
@@ -24,5 +26,5 @@ ul {
 	font-style: italic;
 }
 #bottom_links {
-	text-transform: uppercase;
+	font-family: 'Dancing Script', cursive;
 }
