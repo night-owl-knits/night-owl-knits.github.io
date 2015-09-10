@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,300italic,700italic|Amatic+SC:400,700|Dancing+Script:400,700|Josefin+Slab:400,100,300,600,700,100italic,300italic,400italic,600italic,700italic);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
   text-align: center;
   background-image: url("images/knit_pattern_lt.png");
@@ -55,7 +55,7 @@ ul {
 
 #nav {
   font-size: 1.25em;
-  padding: 15px;
+  padding: 1em;
 }
 
 #splash {
