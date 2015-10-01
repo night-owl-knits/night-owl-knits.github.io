@@ -6,67 +6,53 @@ body {
   color: #4D4D4D;
   font-size: 18px;
   font-family: 'Josefin Slab', serif;
-  line-height: 2em;
+  line-height: 1.5em;
   margin: 2em;
 }
-
 hr {
   width: 50%;
   color: #99CC33;
 }
-
 h1 {
 	font-size: 3em;
 }
-
 h3 {
 	font-size: 1.5em;
 }
-
 ul {
 	list-style-type: none;
 }
-
 .slogan {
 	font-family: 'Amatic SC', cursive;
+  margin: .5em;
 }
-
 .sidebar_image {
   width: 100%;
 }
-
 .hero_image {
   width: 75%
 }
-
 .image_grid {
   width: 25%;
 }
-
 #header {
   width: 100%;
 }
-
 #sidebar {
   float: right;
   width: 20%;
   padding: 15px;
 }
-
 #nav {
   font-size: 1.25em;
   padding: 1em;
 }
-
 #splash {
   width: 100%;
 }
-
 #content {
   width: 100%;
 }
-
 #bottom_links {
 	font-family: 'Amatic SC', cursive;
-
 }
