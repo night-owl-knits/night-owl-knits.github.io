@@ -11,10 +11,8 @@ h1,h2,nav,h6 {
   font-family: 'Open Sans', sans-serif;
 }
 nav {
-  display: inline-block;
+  display: block;
   float: right;
-  list-style-type: none;
-  padding: 1em;
   letter-spacing: .25em;
 }
 h6 {
@@ -46,6 +44,15 @@ footer {
   background-color: rgb(255,255,255);
   clear: both;
   color: rgba(0,0,0,.6);
+  min-width: 600px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 .pinktext {
   color: rgb(255,128,151);
@@ -78,6 +85,7 @@ footer {
 }
 #zblogo {
   width: 50%;
+  min-width: 220px;
 }
 #copyright {
   background-color: rgb(255,255,255);
