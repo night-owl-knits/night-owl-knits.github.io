@@ -86,6 +86,7 @@ footer {
 #zblogo {
   width: 50%;
   min-width: 220px;
+  padding-bottom: .5em;
 }
 #copyright {
   background-color: rgb(255,255,255);
