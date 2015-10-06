@@ -70,9 +70,11 @@ p {
 p + a {
   margin-top: 2em;
   color: rgb(166,216,65);
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 300;
   font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
   padding: .25em .5em;
   border: 1px solid;
 }
