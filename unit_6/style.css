@@ -6,6 +6,7 @@ body {
   font-size: 14px;
   font-family: 'Lora', serif;
   line-height: 1.5em;
+  background:url(images/seamlesstexture1_1200.jpg);
 }
 h1,h2,nav, h6 {
   font-family: 'Open Sans', sans-serif;
