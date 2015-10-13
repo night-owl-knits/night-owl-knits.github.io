@@ -1,0 +1,140 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  text-align: left;
+  color: rgb(100,100,100);
+  font-size: 14px;
+  font-family: 'Lora', serif;
+  line-height: 1.5em;
+  background:url(images/seamlesstexture1_1200.jpg);
+}
+h1,h2,nav, h6 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: .25em;
+}
+nav {
+  display: block;
+  float: right;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+  color: rgb(150,150,150);
+}
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(128,199,240);
+}
+h6 {
+  text-align: center;
+}
+img {
+  padding: .25em;
+}
+img:hover {
+  color: rgba(0,0,0,50);
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(150,150,150);
+}
+a:active {
+  color: rgb(0,0,0);
+}
+hr {
+  display: block;
+  margin-top: 2em;
+  border-style: dashed;
+  border-width: 1px;
+  color: rgb(200,200,200);
+}
+footer {
+  padding: 0 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(255,255,255);
+  clear: both;
+  min-width: 600px;
+}
+p {
+  margin-bottom: 1em;
+}
+p + a {
+  margin-top: 2em;
+  color: rgb(166,216,65);
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  padding: .25em .5em;
+  border: 1px solid;
+}
+h2 + p {
+  margin-top: .75em;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.pinktext {
+  color: rgb(255,128,151);
+}
+.bluetext {
+  color: rgb(128,199,240);
+}
+.greentext {
+  color: rgb(166,216,65);
+}
+.four-photo_grid {
+  width: 50%;
+  float: left;
+}
+.quarterimagesquare {
+  width: 25%;
+  float: left;
+}
+.halfimagesquare {
+  width: 50%;
+  float: left;
+}
+.imagefullwidth {
+  width: 100%;
+  float: left;
+}
+.blogcopy {
+  clear: both;
+  margin: 1em 0;
+  padding: 1em .25em;
+}
+#wrapper {
+  padding: 2em 2em 0 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(255,255,255);
+  clear: both;
+  overflow: auto;
+}
+#zblogo {
+  width: 50%;
+  min-width: 220px;
+  padding-bottom: .5em;
+}
+#copyright {
+  background-color: rgb(255,255,255);
+  padding: 1em 0;
+  clear: both;
+}
