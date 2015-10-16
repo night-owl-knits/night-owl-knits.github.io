@@ -3,6 +3,7 @@
 body {
   text-align: center;
   background-image: url("images/knit_pattern_lt.png");
+  background-repeat: repeat-y;
   color: #4D4D4D;
   font-size: 18px;
   font-family: 'Josefin Slab', serif;

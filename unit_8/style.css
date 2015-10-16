@@ -6,40 +6,51 @@ body {
   font-size: 14px;
   font-family: 'Lora', serif;
   line-height: 1.5em;
-  background:url(images/seamlesstexture1_1200.jpg);
+  background:url(images/knit_pattern_lt.png);
+  background-repeat: repeat;
 }
-h1,h2,nav, h6 {
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: .25em;
+header {
+  text-align: center;
+  padding: 1em;
+  clear: both;
+  overflow: auto;
+  max-width: 1450px;
+  margin: 0 auto;
 }
-nav {
-  display: block;
+aside {
+  background-color: rgba(150, 150, 150, .1);
+  padding: 1em;
+  width: 23%;
+  margin: .5em;
   float: right;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: .25em;
+  clear: both;
+  display: inline-block;
+  border: 1px dashed rgb(100, 100, 100);
+}
+footer {
+  padding: 0;
+  clear: both;
+  background-color: rgb(255, 255, 255);
+  max-width: 1450px;
+  margin: 0 auto;
+}
+h1,h2,h6 {
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: .25em;
+  color: rgb(90, 105, 139);
 }
 h1 {
-  font-size: 24px;
-  font-weight: 300;
-  color: rgb(150,150,150);
-}
-h2 {
-  font-size: 16px;
-  font-weight: 600;
-  color: rgb(128,199,240);
+  margin-top: 1em;
+  font-size: 3em;
+  font-weight: 700;
 }
 h6 {
+  font-family: 'Lora', serif;
   text-align: center;
-}
-img {
-  padding: .25em;
-}
-img:hover {
-  color: rgba(0,0,0,50);
 }
 a:link {
   text-decoration: none;
+  color: none;
 }
 a:visited {
   text-decoration: none;
@@ -57,15 +68,8 @@ hr {
   border-width: 1px;
   color: rgb(200,200,200);
 }
-footer {
-  padding: 0 2em;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: rgb(255,255,255);
-  clear: both;
-  min-width: 600px;
-}
 p {
+  text-align: left;
   margin-bottom: 1em;
 }
 p + a {
@@ -79,8 +83,14 @@ p + a {
   padding: .25em .5em;
   border: 1px solid;
 }
-h2 + p {
+h1 + p {
   margin-top: .75em;
+}
+aside img {
+  width: 100%;
+  float: left;
+  padding: .5em;
+  margin-bottom: 1em;
 }
 .clearfix:after {
   visibility: hidden;
@@ -90,30 +100,24 @@ h2 + p {
   height: 0;
   font-size: 0;
 }
-.pinktext {
-  color: rgb(255,128,151);
+.margin_below {
+  margin-bottom: 1em;
 }
-.bluetext {
-  color: rgb(128,199,240);
-}
-.greentext {
-  color: rgb(166,216,65);
-}
-.four-photo_grid {
-  width: 50%;
-  float: left;
-}
-.quarterimagesquare {
+.twentyfivepercent_image {
   width: 25%;
   float: left;
+  padding: .5em;
+  margin: 0;
 }
-.halfimagesquare {
+.fiftypercent_image {
   width: 50%;
   float: left;
+  padding: .5em;
 }
-.imagefullwidth {
+.onehundredpercent_image {
   width: 100%;
   float: left;
+  padding: .5em;
 }
 .blogcopy {
   clear: both;
@@ -121,20 +125,35 @@ h2 + p {
   padding: 1em .25em;
 }
 #wrapper {
-  padding: 2em 2em 0 2em;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-align: center;
+  padding: 1em;
   background-color: rgb(255,255,255);
   clear: both;
   overflow: auto;
+  max-width: 1450px;
+  margin: 0 auto;
 }
-#zblogo {
-  width: 50%;
-  min-width: 220px;
-  padding-bottom: .5em;
+#llmlogo {
+  width: 15em;
+  padding: 1em;
+  display: inline-block;
+  float: left;
+}
+#photo_grid {
+  width: 75%;
+  clear: both;
+  display: inline-block;
 }
 #copyright {
   background-color: rgb(255,255,255);
   padding: 1em 0;
   clear: both;
+}
+@media only screen and (max-width: 800px) {
+  nav {
+     float: none;
+  }
+  nav a {
+    margin: 1em;
+  }
 }
