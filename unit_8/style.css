@@ -144,6 +144,9 @@ aside img {
   clear: both;
   display: inline-block;
 }
+#social {
+  list-style: none;
+}
 #copyright {
   background-color: rgb(255,255,255);
   padding: 1em 0;
