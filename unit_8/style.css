@@ -92,7 +92,7 @@ header nav li {
   text-transform: uppercase;
   list-style: none;
   padding: 1.5em;
-  float: left;
+  float: right;
   display: block;
   clear: both;
 }
