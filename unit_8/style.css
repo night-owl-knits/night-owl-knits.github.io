@@ -16,16 +16,16 @@ header {
   overflow: auto;
   max-width: 1450px;
   margin: 0 auto;
+  vertical-align: center;
 }
 aside {
-  background-color: rgba(150, 150, 150, .1);
-  padding: 1em;
+  padding: 0 1em;
   width: 23%;
   margin: .5em;
   float: right;
   clear: both;
   display: inline-block;
-  border: 1px dashed rgb(100, 100, 100);
+  border-left: 1px dashed rgb(100, 100, 100);
 }
 footer {
   padding: 0;
@@ -86,10 +86,20 @@ p + a {
 h1 + p {
   margin-top: .75em;
 }
+header nav li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 1.5em;
+  float: left;
+  display: block;
+  clear: both;
+}
 aside img {
   width: 100%;
   float: left;
-  padding: .5em;
+  padding: 0 .5em .5em .5em;
   margin-bottom: 1em;
 }
 .clearfix:after {
@@ -138,6 +148,7 @@ aside img {
   padding: 1em;
   display: inline-block;
   float: left;
+  clear: both;
 }
 #photo_grid {
   width: 75%;
