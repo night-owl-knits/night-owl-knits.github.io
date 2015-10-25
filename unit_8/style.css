@@ -11,7 +11,7 @@ body {
 }
 header {
   text-align: center;
-  padding: 1em;
+  padding: 1em 1em 0 1em;
   clear: both;
   overflow: auto;
   max-width: 1450px;
@@ -23,8 +23,9 @@ nav {
   float: right;
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: .05em;
   list-style: none;
+  border-bottom: 1px, solid, rgba(100,100,100,.25);
   }
 aside {
   padding: 0 1em;
@@ -38,19 +39,21 @@ aside {
 footer {
   padding: 0;
   clear: both;
-  background-color: rgb(255, 255, 255);
   max-width: 1450px;
   margin: 0 auto;
 }
 h1,h2,h6 {
   font-family: 'Amatic SC', cursive;
-  margin-bottom: .25em;
+  margin-bottom: .5em;
   color: rgb(90, 105, 139);
 }
 h1 {
   margin-top: 1em;
   font-size: 3em;
   font-weight: 700;
+}
+h2 {
+  font-size: 2em;
 }
 h6 {
   font-family: 'Lora', serif;
@@ -96,17 +99,15 @@ h1 + p {
 }
 header nav li {
   font-family: 'Open Sans', sans-serif;
-  padding: 1.5em;
+  color: rgb(90, 105, 139);
+  padding: 1em;
   float: right;
   margin-top: 7em;
-  font-weight: 500;
-  background-color: rgba (100,100,100,.5)
 }
 aside img {
   width: 100%;
   float: left;
   padding: 0 2em 2em 2em;
-  margin-bottom: 1em;
 }
 .clearfix:after {
   visibility: hidden;
@@ -160,29 +161,38 @@ aside img {
   width: 20em;
   float: left;
   text-align: center;
-  padding: 1em;
+  padding: 0;
   clear: both;
   overflow: auto;
-  margin: 0 auto;
+  margin: 0;
+}
+#social {
+  list-style: none;
 }
 #photo_grid {
   width: 75%;
   clear: both;
   display: inline-block;
 }
-#social {
-  list-style: none;
-}
-#email_me {
-  font-family: 'Amatic SC', sans-serif;
+#email_links {
+  display: block;
+  margin: 0;
   text-align: left;
-  color: rgb(90, 105, 139);
-  margin: 1em;
-  font-size: 2em;
-  font-weight: 700;
+  padding: .5em 0;
+}
+#email_links img {
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  width: 5em;
+}
+#email_links h2 {
+  display: block;
+  float: left;
+  vertical-align: center;
+  padding: .5em 0;
 }
 #copyright {
-  background-color: rgb(255,255,255);
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   display: block;
