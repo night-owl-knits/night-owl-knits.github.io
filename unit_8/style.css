@@ -221,16 +221,18 @@ aside img {
     display: inline-block;
   }
   nav {
-     float: left;
+     float: right;
      text-align: center;
      margin-right: auto;
      margin-left: auto;
   }
-  nav a {
-    padding: 1em;
-  }
   header nav li {
     margin-top: 0;
+    padding: .5em;
+    font-size: 16px;
+  }
+  header {
+    text-align: center;
   }
   #llmlogo { 
     width: 15em;
@@ -243,22 +245,23 @@ aside img {
     width: 100%;
   }
   #social_links {
-  width: 75%;
+    width: 75%;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   body {
     font-size: 12px;
+    text-align: center;
   }
   nav {
     float: none;
     text-align: left;
-    padding: .25em;
-    font-size: 14px;
+    font-size: 12px;
   }
-  nav li {
-    display: block;
-    padding: 0;
+  header nav li {
+    float: none;
+    text-align: center;
+    padding: .25em;
   }
   aside img {
     width: 33.3%;
@@ -268,5 +271,11 @@ aside img {
   }
   .fiftypercent_image {
     width: 100%;
+  }
+  #social_links {
+    width: 100%;
+  }
+  #llmlogo {
+        margin: 0 auto;
   }
 }
