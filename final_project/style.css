@@ -112,7 +112,7 @@ header nav li {
 aside img {
   width: 100%;
   float: left;
-  padding: 0 2em 2em 2em;
+  padding: 0 2em 2em 0;
 }
 .clearfix:after {
   visibility: hidden;
@@ -224,11 +224,11 @@ aside img {
 #blog_preview h1 {
   text-align: left;
   display: block;
-  margin-top: .5em;
+  margin-top: .25em;
 }
 #blog_preview h3 {
   text-align: left;
-  letter-spacing: .025em;
+  letter-spacing: .05em;
 }
 @media only screen and (max-width: 1000px) {
   .twentyfivepercent_image {
