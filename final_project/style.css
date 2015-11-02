@@ -151,17 +151,22 @@ aside img {
   padding: .5em;
 }
 .photo_with_caption {
+  overflow:hidden;
   position: relative;
 }
 .caption {
   position: absolute;
-  bottom: 0;
+  bottom: -7em;
   right: 0;
   left: 0;
   background-color: rgba(0,0,0,.5);
   padding: 2em;
   width: 100%;
 }
+figure:hover .caption {
+  bottom:0;
+  transition-duration:.5s;
+} 
 .caption h3 {
   color: rgba(255,255,255,1);
 }
