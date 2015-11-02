@@ -79,9 +79,12 @@ a:visited {
 }
 a:hover {
   color: rgb(150,150,150);
+  background-color: rgba(0,0,0,.05);
 }
 a:active {
   color: rgb(0,0,0);
+  background-color: rgba(0,0,0,.1);
+
 }
 p {
   text-align: left;
