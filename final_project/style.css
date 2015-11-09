@@ -23,12 +23,20 @@ nav {
   float: right;
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: .05em;
+  letter-spacing: .025em;
   list-style: none;
-  }
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(90, 105, 139);
+  padding: 1em;
+  float: right;
+  margin-top: 7em;
+}
+nav a {
+    margin-left: 1em;
+}
 aside {
   padding: 0 1em;
-  width: 23%;
+  width: 22%;
   margin: .5em;
   float: right;
   clear: both;
@@ -104,18 +112,11 @@ p + a {
 h1 + p {
   margin-top: .75em;
 }
-header nav li {
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(90, 105, 139);
-  padding: 1em;
-  float: right;
-  margin-top: 7em;
-  border: 1px;
-}
 aside img {
   width: 100%;
   float: left;
-  padding: 0 2em 2em 0;
+  padding: 0;
+  margin-bottom: 1.5em;
 }
 .clearfix:after {
   visibility: hidden;
@@ -127,6 +128,10 @@ aside img {
 }
 .margin_below {
   margin-bottom: 1em;
+}
+.photo_grid {
+  width: 75%;
+  display: inline-block;
 }
 .twentyfivepercent_image {
   width: 25%;
@@ -167,7 +172,7 @@ figure:hover .caption {
   bottom:0;
   transition-duration:.5s;
 } 
-.caption h3 {
+.caption h2 {
   color: rgba(255,255,255,1);
 }
 .blogcopy {
@@ -183,13 +188,15 @@ figure:hover .caption {
   overflow: auto;
   max-width: 1450px;
   margin: 0 auto;
+  box-shadow: .25em .25em 1.5em rgba(0,0,0,.1);
 }
 #llmlogo {
-  width: 15em;
+  width: 12em;
   padding: 0;
   display: inline-block;
   float: left;
   clear: both;
+  margin-bottom: 1em;
 }
 #social_links {
   float: left;
@@ -199,17 +206,17 @@ figure:hover .caption {
   overflow: auto;
   margin: 0;
   width: 20em;
+  display: block;
 }
-#photo_grid {
-  width: 75%;
-  clear: both;
-  display: inline-block;
+#social_links li {
+  list-style: none;
 }
 #email_links {
   display: block;
   margin: 0;
   text-align: left;
-  padding: .5em 0;
+  padding: .5em 0 1em 0;
+  border: none;
 }
 #email_links img {
   padding: 0;
@@ -272,11 +279,9 @@ figure:hover .caption {
      text-align: center;
      margin-right: auto;
      margin-left: auto;
-  }
-  header nav li {
-    margin-top: 0;
-    padding: .5em;
-    font-size: 16px;
+     margin-top: 0;
+     padding: .5em;
+     font-size: 16px;
   }
   header {
     text-align: center;
@@ -299,12 +304,8 @@ figure:hover .caption {
   body {
     text-align: center;
   }
-  nav {
-    float: none;
-    text-align: left;
-    font-size: 12px;
-  }
-  header nav li {
+  nav a {
+    display: block;
     float: none;
     text-align: center;
     padding: .25em;
@@ -319,12 +320,12 @@ figure:hover .caption {
     width: 100%;
   }
   .thirtythreepercent_image {
-  width: 100%;
+    width: 100%;
   }
   #social_links {
     width: 100%;
   }
   #llmlogo {
-        margin: 0 auto;
+    margin: 0 auto;
   }
 }
