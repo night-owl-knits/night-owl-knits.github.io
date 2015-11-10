@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1000px) {
+  .twentyfivepercent_image {
+    width: 50%;
+  }
+  #social_links img {
+    width: 25%;
+    padding: 1em;
+  }
+}
+@media only screen and (max-width: 825px) {
+  aside {
+    display: block;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+  }
+  aside img {
+    display: inline;
+    width: 20%;
+    margin: 0;
+    padding: 0 1em 1em 0;
+  }
+  aside h1 {
+    text-align: left;
+  }
+  aside div {
+    display: inline-block;
+  }
+  nav {
+     float: right;
+     text-align: center;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 0;
+     padding: .5em;
+     font-size: 16px;
+  }
+  header {
+    text-align: center;
+  }
+  .caption {
+    bottom: 0;
+    padding: .5em;
+    font-size: 18px;
+}
+  #llmlogo { 
+    width: 15em;
+    padding: 0 0 1em 0;
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  #photo_grid {
+    width: 100%;
+  }
+  #social_links {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 420px) {
+  body {
+    text-align: center;
+  }
+  nav {
+    display: block;
+    float: none;
+    text-align: center;
+    padding: .25em;
+    margin-top: 1em;
+  }
+  aside img {
+    width: 33.3%;
+  }
+  .twentyfivepercent_image {
+    width: 100%;
+  }
+  .fiftypercent_image {
+    width: 100%;
+  }
+  .thirtythreepercent_image {
+    width: 100%;
+  }
+  #social_links {
+    width: 100%;
+  }
+  #llmlogo {
+    margin: 0 auto;
+  }
+}

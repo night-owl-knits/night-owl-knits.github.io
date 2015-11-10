@@ -32,11 +32,11 @@ nav {
   margin-top: 7em;
 }
 nav a {
-    margin-left: 1em;
+  padding: .5em;
 }
 aside {
   padding: 0 1em;
-  width: 22%;
+  width: 20%;
   margin: .5em;
   float: right;
   clear: both;
@@ -99,15 +99,16 @@ p {
   margin-bottom: 1em;
 }
 p + a {
-  margin-top: 2em;
-  color: rgb(166,216,65);
+  margin-top: 1em;
+  color: rgb(90, 105, 139);
   font-size: 14px;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: .05em;
   padding: .25em .5em;
-  border: 1px solid;
+  border: 1px solid rgba(90, 105, 139, .5);
+  display: inline-block;
 }
 h1 + p {
   margin-top: .75em;
@@ -132,6 +133,7 @@ aside img {
 .photo_grid {
   width: 75%;
   display: inline-block;
+  float: left;
 }
 .twentyfivepercent_image {
   width: 25%;
@@ -156,8 +158,14 @@ aside img {
   padding: .5em;
 }
 .photo_with_caption {
-  overflow:hidden;
+  overflow: hidden;
   position: relative;
+  float: left;
+  padding: 0;
+  border: 2px solid rgb(255,255,255);
+}
+.photo_with_caption img {
+  padding: 0;
 }
 .caption {
   position: absolute;
@@ -165,20 +173,20 @@ aside img {
   right: 0;
   left: 0;
   background-color: rgba(0,0,0,.5);
-  padding: 2em;
+  padding: .5em;
   width: 100%;
+  color: rgb(255,255,255);
+  font-family: "Amatic SC", sans-serif;
+  letter-spacing: .05em;
 }
 figure:hover .caption {
   bottom:0;
   transition-duration:.5s;
-} 
-.caption h2 {
-  color: rgba(255,255,255,1);
 }
 .blogcopy {
   clear: both;
   margin: 1em 0;
-  padding: 1em .25em;
+  padding: 1em .5em;
 }
 #wrapper {
   text-align: center;
@@ -188,7 +196,7 @@ figure:hover .caption {
   overflow: auto;
   max-width: 1450px;
   margin: 0 auto;
-  box-shadow: .25em .25em 1.5em rgba(0,0,0,.1);
+  box-shadow: .25em .25em 2.5em rgba(0,0,0,.1);
 }
 #llmlogo {
   width: 12em;
@@ -240,10 +248,15 @@ figure:hover .caption {
   text-align: left;
   display: block;
   margin-top: .25em;
+  padding-left: .175em;
 }
 #blog_preview h3 {
   text-align: left;
   letter-spacing: .05em;
+  padding-left: .5em;
+}
+#blog_preview p {
+  padding-left: .5em;
 }
 @media only screen and (max-width: 1000px) {
   .twentyfivepercent_image {
@@ -259,8 +272,11 @@ figure:hover .caption {
     display: block;
     float: none;
     width: 100%;
-    margin: 0 auto;
-    border: none;
+    margin: 1em auto;
+    padding-top: 1.5em;
+    border-left: none;
+    border-bottom: none;
+    border-top: 1px dashed rgb(200,200,200);
   }
   aside img {
     display: inline;
@@ -270,6 +286,7 @@ figure:hover .caption {
   }
   aside h1 {
     text-align: left;
+    margin-top: .25em;
   }
   aside div {
     display: inline-block;
@@ -281,11 +298,15 @@ figure:hover .caption {
      margin-left: auto;
      margin-top: 0;
      padding: .5em;
-     font-size: 16px;
   }
   header {
     text-align: center;
   }
+  .caption {
+    bottom: 0;
+    padding: .5em;
+    font-size: 18px;
+}
   #llmlogo { 
     width: 15em;
     padding: 0 0 1em 0;
@@ -293,7 +314,7 @@ figure:hover .caption {
     float: none;
     text-align: center;
   }
-  #photo_grid {
+  .photo_grid {
     width: 100%;
   }
   #social_links {
@@ -304,11 +325,12 @@ figure:hover .caption {
   body {
     text-align: center;
   }
-  nav a {
+  nav {
     display: block;
     float: none;
     text-align: center;
     padding: .25em;
+    margin-top: 1em;
   }
   aside img {
     width: 33.3%;
