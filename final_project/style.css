@@ -186,7 +186,7 @@ figure:hover .caption {
 }
 #wrapper {
   text-align: center;
-  padding: 1em;
+  padding: 1.5em;
   background-color: rgb(255,255,255);
   clear: both;
   overflow: auto;
