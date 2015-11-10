@@ -37,7 +37,6 @@ nav a {
 aside {
   padding: 0 1em;
   width: 20%;
-  margin: .5em;
   float: right;
   clear: both;
   display: inline-block;
@@ -138,31 +137,27 @@ aside img {
 .twentyfivepercent_image {
   width: 25%;
   float: left;
-  padding: .5em;
   margin: 0;
 }
 .thirtythreepercent_image {
   width: 33.3%;
   float: left;
-  padding: .5em;
   margin: 0 0 1em 0;
+  border: .25em solid rgb(255,255,255);
 }
 .fiftypercent_image {
   width: 50%;
   float: left;
-  padding: .5em;
 }
 .onehundredpercent_image {
   width: 100%;
   float: left;
-  padding: .5em;
 }
 .photo_with_caption {
   overflow: hidden;
   position: relative;
   float: left;
-  padding: 0;
-  border: 2px solid rgb(255,255,255);
+  border: .25em solid rgb(255,255,255);
 }
 .photo_with_caption img {
   padding: 0;
@@ -173,14 +168,14 @@ aside img {
   right: 0;
   left: 0;
   background-color: rgba(0,0,0,.5);
-  padding: .5em;
+  padding: .75em;
   width: 100%;
   color: rgb(255,255,255);
   font-family: "Amatic SC", sans-serif;
   letter-spacing: .05em;
 }
 figure:hover .caption {
-  bottom:0;
+  bottom:-.5em;
   transition-duration:.5s;
 }
 .blogcopy {
@@ -212,12 +207,16 @@ figure:hover .caption {
   padding: 0;
   clear: both;
   overflow: auto;
-  margin: 0;
+  margin: .5em 0;
   width: 20em;
-  display: block;
+  display: inline-block;
 }
 #social_links li {
   list-style: none;
+}
+#social_links img {
+  padding: .25em;
+  max-width: 50%;
 }
 #email_links {
   display: block;
@@ -248,15 +247,15 @@ figure:hover .caption {
   text-align: left;
   display: block;
   margin-top: .25em;
-  padding-left: .175em;
+  padding-left: .1em;
 }
 #blog_preview h3 {
   text-align: left;
   letter-spacing: .05em;
-  padding-left: .5em;
+  padding-left: .3em;
 }
 #blog_preview p {
-  padding-left: .5em;
+  padding-left: .25em;
 }
 @media only screen and (max-width: 1000px) {
   .twentyfivepercent_image {
@@ -303,7 +302,7 @@ figure:hover .caption {
     text-align: center;
   }
   .caption {
-    bottom: 0;
+    bottom:-.5em;
     padding: .5em;
     font-size: 18px;
 }
@@ -318,20 +317,28 @@ figure:hover .caption {
     width: 100%;
   }
   #social_links {
-    width: 75%;
+    max-width: 100%;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 548px) {
+  nav {
+    text-align: center;
+    padding: .25em;
+    margin: 0 auto;
+    float: none;
+  }
+  nav a {
+    display: block;
+    float: none;
+  }
   body {
     text-align: center;
   }
-  nav {
-    display: block;
-    float: none;
-    text-align: center;
-    padding: .25em;
-    margin-top: 1em;
+  #llmlogo {
+    margin: 0 auto;
   }
+}
+@media only screen and (max-width: 420px) {
   aside img {
     width: 33.3%;
   }
@@ -346,8 +353,5 @@ figure:hover .caption {
   }
   #social_links {
     width: 100%;
-  }
-  #llmlogo {
-    margin: 0 auto;
   }
 }
