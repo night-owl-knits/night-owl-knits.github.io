@@ -38,9 +38,9 @@ aside {
   padding: 0 1em;
   width: 20%;
   float: right;
-  clear: both;
   display: inline-block;
   border-left: 1px dashed rgb(200,200,200);
+  border-top: .25em solid rgb(255,255,255);
   border-bottom: 1px dashed rgb(200,200,200);
 }
 footer {
@@ -48,6 +48,7 @@ footer {
   clear: both;
   max-width: 1450px;
   margin: 0 auto;
+  display: block;
 }
 h1,h2,h3,h6 {
   font-family: 'Amatic SC', cursive;
@@ -118,6 +119,7 @@ aside img {
   float: left;
   padding: 0;
   margin-bottom: 1.5em;
+  border: .25em solid rgb(255,255,255);
 }
 .clearfix:after {
   visibility: hidden;
@@ -131,9 +133,10 @@ aside img {
   margin-bottom: 1em;
 }
 .photo_grid {
-  width: 75%;
+  width: 80%;
   display: inline-block;
   float: left;
+  padding-right: 1em;
 }
 .twentyfivepercent_image {
   width: 25%;
@@ -180,7 +183,6 @@ figure:hover .caption {
   transition-duration:.5s;
 }
 .blogcopy {
-  clear: both;
   margin: 1em 0;
   padding: 1em .5em;
 }
@@ -249,6 +251,7 @@ figure:hover .caption {
   display: block;
   margin-top: .25em;
   padding-left: .1em;
+  clear: after;
 }
 #blog_preview h3 {
   text-align: left;
